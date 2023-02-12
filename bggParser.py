@@ -41,7 +41,7 @@ def main(argv):
     all_games = {}
     parser = MyHTMLParser()
     backoff = 1
-    for i in range(1, 10):
+    for i in range(1, 5):
         user_agent = random.choice(user_agent_list)
         page_uri = "https://boardgamegeek.com/browse/boardgame/page/{0}".format(i)
         headers = {
